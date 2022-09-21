@@ -9,6 +9,7 @@ header {
     background-color: #FF6900;
     position: fixed; 
     width: 100%;
+    z-index: 10;
 }
 
 .container-head {
@@ -39,4 +40,74 @@ li {
     width: 10rem;
     margin: 1.5rem;
     
+}
+
+.flex {
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 32%;
+    /* margin-top: 100px; */
+    margin: 0.5rem;
+    position: relative;
+    margin-top: 20rem;
+
+}
+
+.img{
+    width: 100%;
+
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    padding: 10px;
+}
+
+.sale {
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: rgb(14, 100, 14);
+}
+
+.sustain {
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.item {
+    font-weight: bolder;
+}
+
+.outlet-price {
+    color: red;
+    font-weight: bolder;
+}
+
+.native-price {
+    text-decoration: line-through;
+    font-weight: bolder;
 }
