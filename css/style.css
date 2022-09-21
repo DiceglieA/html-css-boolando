@@ -59,7 +59,7 @@ li {
     /* margin-top: 100px; */
     margin: 0.5rem;
     position: relative;
-    margin-top: 20rem;
+    margin-top: 8rem;
 
 }
 
@@ -99,6 +99,11 @@ li {
     left: 50px;
 }
 
+.six-left {
+    position: absolute;
+    left: 0;
+}
+
 .item {
     font-weight: bolder;
 }
@@ -111,4 +116,22 @@ li {
 .native-price {
     text-decoration: line-through;
     font-weight: bolder;
+}
+
+footer {
+    background-color: black;
+}
+
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+.boolando-legacy {
+    color: white;
 }
