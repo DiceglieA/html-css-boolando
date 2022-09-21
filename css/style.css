@@ -49,12 +49,13 @@ li {
 .container{
     width: 80%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .card{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 32%;
+    flex-basis: 31.8%;
     /* margin-top: 100px; */
     margin: 0.5rem;
     position: relative;
