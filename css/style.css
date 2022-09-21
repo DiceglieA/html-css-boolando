@@ -65,6 +65,7 @@ li {
 
 .img{
     width: 100%;
+    object-fit: contain;
 
 }
 
@@ -139,4 +140,24 @@ footer {
 .footerclass {
     padding: 2rem;
    
+}
+
+.img2 {
+    display: none;
+    width: 100%;
+    object-fit: contain;
+}
+ 
+.card:hover .img{
+    display: none;
+
+}
+
+.card:hover .img2{
+    display: block;
+
+}
+
+.card:hover .heart {
+    color: #FF6900;
 }
